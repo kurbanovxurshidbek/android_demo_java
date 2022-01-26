@@ -11,7 +11,7 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
 
         <activity
-            android:name=".activity.SplashActivity"
+            android:name=".activity.BackStackActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,7 +23,7 @@
         <activity android:name=".activity.ListActivity"/>
         <activity android:name=".activity.RecyclerActivity"/>
         <activity android:name=".activity.AdvancedActivity"/>
-        <activity android:name=".activity.FragmentActivity" />
+        <activity android:name=".activity.SplashActivity" />
         <activity android:name=".activity.RuntimeActivity" />
         <activity android:name=".activity.ViewPagerActivity" />
         <activity android:name=".activity.AnimationActivity" />
@@ -31,6 +31,7 @@
         <activity android:name=".activity.SignInActivity" />
         <activity android:name=".activity.SignUpActivity" />
         <activity android:name=".activity.HomeActivity" />
+        <activity android:name=".activity.FragmentActivity" />
 
     </application>
 

@@ -44,7 +44,8 @@ public class MainActivity extends AppCompatActivity {
                 //openFragmentActivity();
                 //openRuntimeActivity();
                 //openViewPagerActivity();
-                openAnimationActivity();
+                //openAnimationActivity();
+                openBackStackActivity();
             }
         });
     }
@@ -103,6 +104,11 @@ public class MainActivity extends AppCompatActivity {
 
     void openAnimationActivity() {
         Intent intent = new Intent(this, AnimationActivity.class);
+        startActivity(intent);
+    }
+
+    void openBackStackActivity() {
+        Intent intent = new Intent(this, BackStackActivity.class);
         startActivity(intent);
     }
 }
